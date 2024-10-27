@@ -18,6 +18,17 @@ s ('rm -rf Pembaruan-sistem-otomatis-dengan-python3-/')
 
 t (2,2)
 s ('git clone https://github.com/MiftahulKhoiri/Pembaruan-sistem-otomatis-dengan-python3-.git')
+t (3,0 )
+s ('clear ')
+print ('mengolah data ')
+s ('rm -rf update-sc.py')
+s ('rm -rf update.py')
+s ('cd /data/data/com.termux/files/home/Pembaruan-sistem-otomatis-dengan-python3-/')
+s ('update-sc.py /data/data/com.termux/files/home')
+s ('cp update.py /data/data/com.termux/files/home')
+s ('cd')
+s ('rm -rf Pembaruan-sistem-otomatis-dengan-python3-/')
 
 print (f"{'pembaruan selesai':^45}")
+
 
